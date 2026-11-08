@@ -1,0 +1,2 @@
+# CoastalSense-HubHacks2026
+
