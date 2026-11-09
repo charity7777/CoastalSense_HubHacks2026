@@ -1,0 +1,21 @@
+# Preliminary reproducibility pins for Windows + Python 3.11.
+# Install PyTorch separately as documented in README.md; do not use
+# YOLOv7's original requirements.txt unchanged (NumPy <1.24).
+# Verify dependency compatibility on each machine.
+numpy==1.26.4
+streamlit==1.44.1
+opencv-python==4.10.0.84
+Pillow==10.4.0
+xlsxwriter==3.2.0
+pandas==2.2.3
+pyarrow==19.0.1
+matplotlib==3.9.2
+scipy==1.14.1
+PyYAML==6.0.2
+requests==2.32.3
+tqdm==4.67.1
+seaborn==0.13.2
+psutil==6.1.0
+protobuf==5.29.3
+huggingface_hub==0.34.4
+thop==0.1.1.post2209072238

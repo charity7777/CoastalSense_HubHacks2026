@@ -1,0 +1,27 @@
+# Local environments and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Model weights belong to third-party researchers; acquire from source
+*.pt
+*.pth
+*.onnx
+*.pt.part
+
+# Raw footage and generated detector outputs require explicit review
+*.mp4
+*.avi
+*.mov
+*.mkv
+runs/
+fish_test/
+*.cache
+*.log
+.DS_Store
+Thumbs.db
